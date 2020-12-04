@@ -9,3 +9,5 @@ This is the simple atm controller. In this Api, I define user information includ
 -	bool Deposit(int dollars);
 -	bool Withdraw(int dollars);
 -	bool FinishAllOperation();
+
+For frontend design, it can use it directly to implement `Insert Card => PIN number => Select Account => See Balance/Deposit/Withdraw`
