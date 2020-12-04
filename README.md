@@ -1,6 +1,6 @@
 # SimpleAtmController
 
-This is the simple atm controller. In this Api, I define user information including user_name, account number, pin number, etc. In AtmController, I support several API:
+This is the simple atm controller. In this Api, I define user information including user_name, account number, pin number, balance, etc. In AtmController, I support several API:
 - bool QueryUserInfo(string account_num);
 -	bool CheckValidPin(string pin);
 -	vector<string> GetAllAccounts();
