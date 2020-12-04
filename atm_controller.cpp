@@ -5,7 +5,7 @@
 #include "atm_controller.h"
 
 bool AtmController::QueryUserInfo(string account_num) {
-	// Assum there is an API we can query the account information
+	// Assume there is an API we can query the account information
 	// from the database, and it will write the user information to
 	// user_info_
 	Status status = QueryFromDatabase(account_num, user_info_);
@@ -80,7 +80,7 @@ bool AtmController::Withdraw(int dollars) {
 }
 
 bool FinishAllOperation() {
-	// Assum there is an API we can write the account information
+	// Assume there is an API we can write the account information
 	// to the database
 	Status status = WriteToDatabase(user_info_);
 	if (status == Status::SUCCESS) {
