@@ -10,4 +10,5 @@ This is the simple atm controller. In this Api, I define user information includ
 -	bool Withdraw(int dollars);
 -	bool FinishAllOperation();
 
-For frontend design, it can use it directly to implement `Insert Card => PIN number => Select Account => See Balance/Deposit/Withdraw`
+For frontend design, it can use it directly to implement `Insert Card => PIN number => Select Account => See Balance/Deposit/Withdraw`.
+I also implemented unit-test for both UserInfo and AtmController. But I assume that it will get the user information from database API. Some part of the code is not runnable unless we replace the database API I assume.
